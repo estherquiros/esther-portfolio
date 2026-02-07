@@ -12,11 +12,21 @@ export const Hero = () => {
         }}
       ></div>
       <div className="hero__content">
-        <h2 className="hero__title">¡Hola! Soy Esther, desarrolladora web.</h2>
+        <h1 className="hero__title">Soy Esther</h1>
         <p className="hero__description">
-          Me apasiona crear experiencias digitales atractivas y funcionales.
-          Bienvenido a mi portfolio, donde podrás conocer mis proyectos y
-          habilidades.
+          Mi historia es poco típica, fui logopeda autónoma y en 2025 di el
+          salto al desarrollo web a través de un bootcamp, me enganché al
+          proceso de crear: curiosidad, constancia y aprender cada día.
+        </p>
+        <p className="hero__description">
+          Ahora sigo formándome y creando proyectos para poner en práctica lo
+          aprendido, probar nuevas tecnologías y crecer paso a paso. Me encanta
+          construir desde cero y ver una idea convertirse en algo real que
+          funciona.
+        </p>
+        <p className="hero__description">
+          Del mundo sanitario me llevo empatía, paciencia y trato: también están
+          en mi forma de colaborar y comunicarme con el equipo.
         </p>
       </div>
     </section>

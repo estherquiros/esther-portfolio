@@ -1,5 +1,15 @@
+@use "../../styles/variables" as *;
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 600px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    background-color: $color-blue-light;
+  }
 }
