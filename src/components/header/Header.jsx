@@ -28,7 +28,7 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
-        <h1 className="header__title">Esther Portfolio</h1>
+        <h1 className="header__title font-title">Esther's Portfolio</h1>
         <ul className="header__links">
           <li>
             <a className="link" href="mailto:estherbequiros@gmail.com">

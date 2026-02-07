@@ -4,12 +4,16 @@
   grid-template-columns: 1fr 1fr;
   min-height: 600px;
 
+  &__title {
+    font-style: italic;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding: 60px;
+    padding: 120px;
     background-color: $color-blue-light;
   }
 }

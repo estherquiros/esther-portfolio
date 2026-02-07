@@ -12,7 +12,7 @@ export const Hero = () => {
         }}
       ></div>
       <div className="hero__content">
-        <h1 className="hero__title">Soy Esther</h1>
+        <h1 className="hero__title font-title">Soy Esther</h1>
         <p className="hero__description">
           Mi historia es poco típica, fui logopeda autónoma y en 2025 di el
           salto al desarrollo web a través de un bootcamp, me enganché al
