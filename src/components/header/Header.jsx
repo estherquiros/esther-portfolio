@@ -1,4 +1,9 @@
 import "./Header.scss";
+import {
+  PiGithubLogoLight,
+  PiSmileyLight,
+  PiLinkedinLogoLight,
+} from "react-icons/pi";
 
 export const Header = () => {
   return (
@@ -26,7 +31,29 @@ export const Header = () => {
         <h1 className="header__title">Esther Portfolio</h1>
         <ul className="header__links">
           <li>
-            <a href="about">About me</a>
+            <a className="link" href="mailto:estherbequiros@gmail.com">
+              <PiSmileyLight size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/estherquiros"
+            >
+              <PiGithubLogoLight size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/esther-quir%C3%B3s/"
+            >
+              <PiLinkedinLogoLight size={30} />
+            </a>
           </li>
         </ul>
       </div>
