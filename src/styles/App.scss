@@ -5,23 +5,5 @@
 }
 
 :root {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
-body {
-  background-color: #555;
-  color: #fff;
-}
-
-.header {
-  border-bottom: solid 5px darkcyan;
-
-  .title {
-    line-height: 4rem;
-    padding-inline: 2rem;
-  }
-}
-
-.main {
-  padding: 2rem;
+  font-family: "system-ui", sans-serif;
 }
