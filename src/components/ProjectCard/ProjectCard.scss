@@ -1,0 +1,33 @@
+@use "../../styles/variables.scss" as *;
+
+.project-card {
+  display: flex;
+  padding: 20px;
+  background-color: $color-blue;
+  width: 340px;
+  height: 450px;
+  border-radius: 20px;
+  text-decoration: none;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__title {
+    color: $color-primary;
+  }
+
+  &__techs {
+    display: flex;
+    gap: 10px;
+    background-color: #ffffff85;
+    backdrop-filter: blur(0.9);
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 20px;
+    color: $color-primary;
+  }
+}

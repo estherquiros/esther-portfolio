@@ -12,7 +12,7 @@ export const Header = () => {
         <nav className="header__nav">
           <ul className="header__nav-list">
             <li className="header__nav-item">
-              <a className="link" href="#aboutme">
+              <a className="link" href="#about-me">
                 Sobre mi
               </a>
             </li>

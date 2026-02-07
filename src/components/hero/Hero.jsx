@@ -2,7 +2,7 @@ import "./hero.scss";
 import heroImage from "../../images/me.jpg";
 export const Hero = () => {
   return (
-    <section className="hero">
+    <section id="about-me" className="hero">
       <div
         className="hero__image"
         style={{
