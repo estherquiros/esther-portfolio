@@ -25,12 +25,12 @@
 
   &__title {
     text-align: center;
+    font-weight: bold !important;
   }
   &__links {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
     list-style: none;
-    color: black;
   }
 }
