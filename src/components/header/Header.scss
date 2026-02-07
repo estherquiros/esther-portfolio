@@ -1,0 +1,29 @@
+@use "../../styles/variables" as *;
+
+.header {
+  padding: 20px;
+  background-color: $color-purple;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  &__nav {
+    &-list {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+  }
+
+  &__title {
+    text-align: center;
+  }
+}

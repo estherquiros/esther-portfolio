@@ -1,3 +1,4 @@
+import { Header } from "../../components/header/Header";
 import { TopHeader } from "../../components/top-header/TopHeader";
 import "./main-layout.scss";
 
@@ -7,9 +8,8 @@ export const MainLayout = ({ children }) => {
       {/* Cabecera superior */}
       <TopHeader />
       {/* Cabecera */}
-      <header className="header">
-        <h1 className="title">Plantilla React</h1>
-      </header>
+      <Header />
+
       {/* Contenido principal */}
       <main className="main">{children}</main>
 
