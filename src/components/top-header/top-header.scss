@@ -1,0 +1,21 @@
+@use "../../styles/variables.scss" as *;
+.top-header {
+  background-color: $color-yellow-light;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  &__content {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 300px;
+  }
+
+  &__item {
+    font-size: 0.8rem;
+    color: $color-primary;
+    font-weight: bold;
+  }
+}
