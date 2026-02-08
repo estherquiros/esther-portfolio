@@ -1,0 +1,14 @@
+export const HardSkills = [
+  "React",
+  "Vite",
+  "API REST",
+  "JavaScript",
+  "HTML5",
+  "CSS3",
+  "Git",
+  "SCSS / SASS",
+  "Node",
+  "MySQL",
+  "BEM",
+  "Flexbox",
+];

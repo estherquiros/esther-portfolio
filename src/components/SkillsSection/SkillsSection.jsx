@@ -1,6 +1,6 @@
 import { HardSkills } from "../HardSkills/HardSkills";
-import { SoftSkills } from "../SolfSkills/SoftSkills";
-import "./skills-section.scss";
+import { SoftSkills } from "../SoftSkills/SoftSkills";
+import "./SkillsSection.scss";
 
 export const SkillsSection = ({ hardSkills, softSkills }) => {
   return (
