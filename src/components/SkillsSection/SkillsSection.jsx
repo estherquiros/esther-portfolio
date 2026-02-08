@@ -15,7 +15,7 @@ export const SkillsSection = ({ hardSkills, softSkills }) => {
       </div>
       <div className="skills-section__content">
         <div className="skills-section__hard-skills">
-          <h3 className="skills-section__subtitle font-subtitle">
+          <h3 className="skills-section__subtitle font-subtitle font-title">
             Habilidades Técnicas
           </h3>
           <HardSkills hardSkills={hardSkills} />

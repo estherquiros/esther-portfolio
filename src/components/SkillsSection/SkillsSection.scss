@@ -2,7 +2,7 @@
 .skills-section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 80px;
 
   &__header {
     display: flex;
@@ -15,5 +15,27 @@
   &__title {
     font-size: xx-large;
     font-weight: bold;
+  }
+  &__subtitle {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  &__hard-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  &__soft-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }
