@@ -1,0 +1,19 @@
+@use "../../styles/variables" as *;
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 120px 80px;
+    background-color: $color-green;
+    text-align: center;
+  }
+  &__title {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+}
