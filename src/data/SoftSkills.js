@@ -19,9 +19,4 @@ export const SoftSkills = [
     description:
       "Habilidad para adquirir y aplicar nuevos conocimientos y habilidades de manera constante.",
   },
-  {
-    title: "Autogestión",
-    description:
-      "Habilidad para organizar y gestionar el propio tiempo, establecer prioridades y cumplir con los plazos establecidos.",
-  },
 ];
