@@ -1,0 +1,19 @@
+.projects-carousel {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+
+  columns: 1;
+
+  &:active,
+  &:focus,
+  &:hover {
+    overflow-x: scroll;
+  }
+}
