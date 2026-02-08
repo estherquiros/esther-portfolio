@@ -3,12 +3,13 @@ import "../styles/App.scss";
 import { Hero } from "./hero/Hero";
 import { ProjectCarrusel } from "./ProjectCarrusel/ProjectCarrusel";
 import { projects } from "./../data/project";
+import { ProjectSection } from "./ProjectSection/ProjectSection";
 
 function App() {
   return (
     <MainLayout>
       <Hero />
-      <ProjectCarrusel projects={projects} />
+      <ProjectSection projects={projects} />
     </MainLayout>
   );
 }
