@@ -22,4 +22,28 @@
     font-size: xx-large;
     color: $color-makeup;
   }
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    color: $color-makeup;
+  }
+  &__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: $color-makeup;
+
+    &-link {
+      color: $color-makeup !important;
+    }
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
 }
