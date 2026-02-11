@@ -1,0 +1,25 @@
+@use "../../styles/variables" as *;
+.footer {
+  background-color: $color-purple;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+
+  &__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+  }
+  &__nav-link {
+    color: $color-makeup !important;
+    text-transform: uppercase;
+  }
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: $color-makeup;
+  }
+}

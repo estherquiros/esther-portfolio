@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer/Footer";
 import { Header } from "../../components/header/Header";
 import { TopHeader } from "../../components/top-header/TopHeader";
 import "./main-layout.scss";
@@ -14,9 +15,7 @@ export const MainLayout = ({ children }) => {
       <main className="main">{children}</main>
 
       {/* Pie de página */}
-      <footer className="footer">
-        <p className="footer-text">Copyright 2024</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
