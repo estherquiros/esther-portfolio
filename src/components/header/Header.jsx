@@ -23,7 +23,7 @@ export const Header = () => {
             </li>
             <li className="header__nav-item">
               <a className="link" href="#skills">
-                skills
+                Skills
               </a>
             </li>
           </ul>
