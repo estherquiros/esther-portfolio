@@ -16,12 +16,13 @@
 
     &__item:hover {
       margin-top: -8px;
-      background-color: $color-green !important;
+      filter: brightness(1.1);
       transform: skewY(-5deg);
     }
 
     &__item:hover + &__item {
       margin-top: -8px;
+      filter: brightness(0.9);
       transform: skewY(5deg);
     }
   }
