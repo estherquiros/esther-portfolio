@@ -4,7 +4,7 @@ import "./SkillsSection.scss";
 
 export const SkillsSection = ({ hardSkills, softSkills }) => {
   return (
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
       <div className="skills-section__header">
         <h2 className="skills-section__title font-title">Habilidades</h2>
         <p className="skills-section__description">

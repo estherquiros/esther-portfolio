@@ -11,12 +11,12 @@ export const Footer = () => {
       <div className="footer__nav">
         <ul className="footer__nav-list">
           <li className="footer__nav-item">
-            <a href="#home" className="footer__nav-link link">
+            <a href="#about-me" className="footer__nav-link link">
               Sobre mi
             </a>
           </li>
           <li className="footer__nav-item">
-            <a href="#about" className="footer__nav-link link">
+            <a href="#portfolio" className="footer__nav-link link">
               Portfolio
             </a>
           </li>

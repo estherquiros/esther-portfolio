@@ -3,7 +3,7 @@ import "./ProjectSection.scss";
 
 export const ProjectSection = ({ projects }) => {
   return (
-    <section className="project-section">
+    <section id="portfolio" className="project-section">
       <div className="project-section__header">
         <h2 className="project-section__title font-title">
           Proyectos Destacados
