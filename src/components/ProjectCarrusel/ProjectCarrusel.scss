@@ -1,5 +1,5 @@
 .projects-carousel {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -10,6 +10,8 @@
   scroll-snap-type: x mandatory;
 
   columns: 1;
+
+  scrollbar-width: none;
 
   &:active,
   &:focus,
