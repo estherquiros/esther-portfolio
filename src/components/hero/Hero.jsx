@@ -1,4 +1,4 @@
-import "./hero.scss";
+import "./Hero.scss";
 import heroImage from "../../images/me.jpg";
 export const Hero = () => {
   return (
