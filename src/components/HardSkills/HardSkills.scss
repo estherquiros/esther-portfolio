@@ -1,22 +1,37 @@
 @use "../../styles/variables" as *;
+@use "../../styles/media-query" as *;
+
 .hard-skills {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 1fr;
   align-items: center;
   gap: 2px;
+  padding: 20px;
+  width: 100%;
+
+  @include mq("xl") {
+    width: fit-content;
+    display: grid;
+    grid-auto-flow: column;
+  }
 
   &__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     outline: 2px solid black;
-    min-height: 400px;
-    min-width: 90px;
+    min-height: 90px;
+    width: 100%;
     justify-content: center;
     font-weight: bold;
 
-    writing-mode: sideways-lr;
-    text-orientation: mixed;
+    @include mq("xl") {
+      min-height: 400px;
+      min-width: 90px;
+
+      writing-mode: sideways-lr;
+      text-orientation: mixed;
+    }
   }
 
   &__item:hover {

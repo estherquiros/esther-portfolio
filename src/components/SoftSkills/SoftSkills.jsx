@@ -21,7 +21,7 @@ export const SoftSkills = ({ softSkills }) => {
           style={{ backgroundImage: `url(${getImageByIndex(index)})` }}
         >
           <h3 className="soft-skills__item-title font-title">{skill.title}</h3>
-          <p>{skill.description}</p>
+          <p className="soft-skills__item-description">{skill.description}</p>
         </li>
       ))}
     </ul>
