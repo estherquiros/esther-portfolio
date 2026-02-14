@@ -1,8 +1,22 @@
 @use "../../styles/variables" as *;
+@use "../../styles/media-query" as *;
+
 .hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 600px;
+  grid-template-columns: 1fr;
+  min-height: calc(100dvh - 120px);
+
+  @include mq("md") {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__image {
+    height: 420px;
+
+    @include mq("md") {
+      height: inherit;
+    }
+  }
 
   &__title {
     font-style: italic;
@@ -14,7 +28,11 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding: 120px;
+    padding: 60px;
     background-color: $color-blue-light;
+
+    @include mq("lg") {
+      padding: 120px;
+    }
   }
 }
