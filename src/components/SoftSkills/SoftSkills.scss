@@ -34,6 +34,12 @@
     background-size: cover;
     background-position: center;
 
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.15);
+    }
+
     &-title {
       font-size: x-large;
       font-weight: bold !important;

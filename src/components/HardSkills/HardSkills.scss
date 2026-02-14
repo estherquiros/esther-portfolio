@@ -13,6 +13,17 @@
     width: fit-content;
     display: grid;
     grid-auto-flow: column;
+
+    &__item:hover {
+      margin-top: -8px;
+      background-color: $color-green !important;
+      transform: skewY(-5deg);
+    }
+
+    &__item:hover + &__item {
+      margin-top: -8px;
+      transform: skewY(5deg);
+    }
   }
 
   &__item {
@@ -32,9 +43,7 @@
       writing-mode: sideways-lr;
       text-orientation: mixed;
     }
-  }
 
-  &__item:hover {
-    background-color: $color-green !important;
+    transition: all 0.3s ease;
   }
 }
