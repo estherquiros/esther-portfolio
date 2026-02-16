@@ -8,9 +8,10 @@ export const SkillsSection = ({ hardSkills, softSkills }) => {
       <div className="skills-section__header">
         <h2 className="skills-section__title font-title">Habilidades</h2>
         <p className="skills-section__description">
-          Aquí puedes ver una lista de mis habilidades técnicas y blandas. Estas
-          habilidades me permiten abordar proyectos de manera efectiva y
-          colaborar con otros de manera eficiente.
+          "Como desarrolladora, estas son las herramientas y habilidades que me
+          acompañan cada día 💖 Gracias a ellas convierto ideas en proyectos
+          tangibles, resuelvo retos con creatividad y trabajo con entusiasmo
+          ⭐🌷"
         </p>
       </div>
       <div className="skills-section__content">

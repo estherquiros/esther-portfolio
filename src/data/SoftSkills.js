@@ -2,21 +2,21 @@ export const SoftSkills = [
   {
     title: "Comunicación efectiva",
     description:
-      "Capacidad para transmitir ideas de manera clara y concisa, tanto verbalmente como por escrito.",
+      "Soy una persona divetida, conecto con las personas y disfruto de escuchary expresarme con entusiasmo y empatía.",
   },
   {
     title: "Trabajo en equipo",
     description:
-      "Habilidad para colaborar con otros, compartir responsabilidades y alcanzar objetivos comunes.",
+      "Me gusta inspirar y motivar a quienes me rodean, buscando que todos aportemos nuestras fortalezas para lograr el mejor resultado.",
   },
   {
     title: "Proactividad",
     description:
-      "Capacidad para anticipar problemas, tomar la iniciativa y buscar soluciones sin necesidad de supervisión constante.",
+      "Tomar la iniciativa y explorar nuevas posibilidades aportando energía y soluciones me define.",
   },
   {
     title: "Aprendizaje continuo",
     description:
-      "Habilidad para adquirir y aplicar nuevos conocimientos y habilidades de manera constante.",
+      "Siempre busco crecer y aprender de cada experiencia, abrazando los cambios y manteniendo mi curiosidad y entusiasmo.",
   },
 ];

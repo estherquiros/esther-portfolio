@@ -9,7 +9,11 @@ export const ProjectSection = ({ projects }) => {
           Proyectos Destacados
         </h2>
         <p className="project-section__description">
-          Aquí encontrarás algunos de mis proyectos más destacados.
+          Estos son algunos de los proyectos que he desarrollado durante mi
+          formación y aprendizaje continuo ✨ Cada uno representa un reto
+          diferente, una oportunidad para experimentar con nuevas tecnologías y
+          seguir creciendo paso a paso como desarrolladora 🌸 Porque para mí,
+          cada proyecto es una nueva forma de aprender, crear y mejorar.
         </p>
       </div>
       <ProjectCarrusel projects={projects} />
