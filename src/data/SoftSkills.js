@@ -2,7 +2,7 @@ export const SoftSkills = [
   {
     title: "Comunicación efectiva",
     description:
-      "Soy una persona divetida, conecto con las personas y disfruto de escuchary expresarme con entusiasmo y empatía.",
+      "Soy una persona divertida, conecto con las personas, disfruto de escuchar y expresarme con entusiasmo y empatía.",
   },
   {
     title: "Trabajo en equipo",
