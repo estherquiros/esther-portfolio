@@ -1,3 +1,45 @@
+@use "../../styles/variables.scss" as *;
+
+.projects-carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-arrow {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: $color-primary;
+  font-size: 1.6rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.25s, transform 0.25s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  &--left {
+    left: 12px;
+  }
+
+  &--right {
+    right: 12px;
+  }
+}
+
 .projects-carousel {
   width: 100%;
   display: flex;
@@ -5,17 +47,12 @@
   gap: 20px;
   padding: 20px;
 
-  -webkit-overflow-scrolling: touch;
-  overflow-x: hidden;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
-
-  columns: 1;
-
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 
-  &:active,
-  &:focus,
-  &:hover {
-    overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
