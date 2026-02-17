@@ -4,6 +4,12 @@
   font-weight: bold;
   transition: color 0.3s ease;
 
+  &--static {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+  }
+
   &:hover {
     text-decoration: underline;
     text-underline-offset: 5px;

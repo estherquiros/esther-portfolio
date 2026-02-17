@@ -14,9 +14,17 @@ export const Hero = () => {
       <div className="hero__content">
         <h1 className="hero__title font-title">Soy Esther</h1>
         <p className="hero__description">
-          Mi historia es poco típica, fui logopeda autónoma y en 2025 di el
-          salto al desarrollo web a través de un bootcamp, me enganché al
-          proceso de crear: curiosidad, constancia y aprender cada día.
+          Mi historia es poco típica, fui{" "}
+          <a
+            href="https://estherquiros.es"
+            target="__blank"
+            className="link link--static"
+          >
+            logopeda autónoma
+          </a>{" "}
+          y en 2025 di el salto al desarrollo web a través de un bootcamp, me
+          enganché al proceso de crear: curiosidad, constancia y aprender cada
+          día.
         </p>
         <p className="hero__description">
           Ahora sigo formándome y creando proyectos para poner en práctica lo
