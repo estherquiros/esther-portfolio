@@ -13,7 +13,11 @@ export const ProjectCard = ({ title, techs, imageUrl, projectUrl }) => {
       }}
     >
       <div className="project-card__content">
-        <h3 className="project-card__title">{title}</h3>
+        {!imageUrl ? (
+          <h3 className="project-card__title">{title}</h3>
+        ) : (
+          <span></span>
+        )}
         <div className="project-card__techs">
           {techs.map((tech, index) => (
             <span key={index} className="project-card__tech">

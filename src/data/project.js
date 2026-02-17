@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Encuentra las parejas",
     techs: ["React", "CSS"],
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "encuentra-parejas.jpg",
     projectUrl: "https://estherquiros.github.io/juego-parejas/",
   },
 
@@ -11,7 +11,7 @@ export const projects = [
     id: 2,
     title: "Filtro de Animal Crossing",
     techs: ["React", "CSS"],
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "animal-crossing.jpg",
     projectUrl: "https://estherquiros.github.io/Filtro-Animal-Crossing/",
   },
 
@@ -19,7 +19,7 @@ export const projects = [
     id: 3,
     title: "Piedra, papel o tijera",
     techs: ["JavaScript", "CSS"],
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "piedra-papel-tijeras.jpg",
     projectUrl:
       "https://estherquiros.github.io/modulo-2-evaluacion-intermedia-estherquiros/",
   },
@@ -27,7 +27,7 @@ export const projects = [
     id: 4,
     title: "Harry Potter",
     techs: ["React", "CSS"],
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "harry-potter.jpg",
     projectUrl:
       "https://beta.adalab.es/modulo-3-evaluacion-final-estherquiros/",
   },
@@ -35,7 +35,7 @@ export const projects = [
     id: 5,
     title: "Online Store",
     techs: ["JavaScript", "CSS"],
-    imageUrl: "https://via.placeholder.com/300x200",
+    imageUrl: "online-store.jpg",
     projectUrl:
       "https://beta.adalab.es/modulo-2-evaluacion-final-estherquiros/",
   },
