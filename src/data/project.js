@@ -1,11 +1,10 @@
 export const projects = [
   {
     id: 1,
-    title: "Piedra, papel o tijera",
-    techs: ["JavaScript", "CSS"],
+    title: "Encuentra las parejas",
+    techs: ["React", "CSS"],
     imageUrl: "https://via.placeholder.com/300x200",
-    projectUrl:
-      "https://estherquiros.github.io/modulo-2-evaluacion-intermedia-estherquiros/",
+    projectUrl: "https://estherquiros.github.io/juego-parejas/",
   },
 
   {
@@ -15,12 +14,14 @@ export const projects = [
     imageUrl: "https://via.placeholder.com/300x200",
     projectUrl: "https://estherquiros.github.io/Filtro-Animal-Crossing/",
   },
+
   {
     id: 3,
-    title: "Encuentra las parejas",
-    techs: ["React", "CSS"],
+    title: "Piedra, papel o tijera",
+    techs: ["JavaScript", "CSS"],
     imageUrl: "https://via.placeholder.com/300x200",
-    projectUrl: "https://estherquiros.github.io/juego-parejas/",
+    projectUrl:
+      "https://estherquiros.github.io/modulo-2-evaluacion-intermedia-estherquiros/",
   },
   {
     id: 4,
