@@ -11,4 +11,5 @@ export const HardSkills = [
   "MySQL",
   "BEM",
   "Flexbox",
+  "Scrum/Agile",
 ];
