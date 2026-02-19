@@ -36,7 +36,6 @@ export const projects = [
     title: "Online Store",
     techs: ["JavaScript", "CSS"],
     imageUrl: "online-store.jpg",
-    projectUrl:
-      "https://beta.adalab.es/modulo-2-evaluacion-final-estherquiros/",
+    projectUrl: "https://estherquiros.github.io/online-store/",
   },
 ];
