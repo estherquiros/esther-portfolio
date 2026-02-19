@@ -41,13 +41,14 @@
     }
 
     &-title {
-      font-size: x-large;
+      font-size: 1.7rem;
       font-weight: bold !important;
     }
 
     &-description {
       max-width: 320px;
       text-wrap-style: balance;
+      font-size: larger;
     }
   }
 }

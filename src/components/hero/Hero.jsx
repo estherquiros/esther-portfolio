@@ -14,6 +14,11 @@ export const Hero = () => {
       <div className="hero__content">
         <h1 className="hero__title font-title">Soy Esther</h1>
         <p className="hero__description">
+          Desarrolladora web full stack, enfocada en seguir creciendo
+          profesionalmente y ampliando mis conocimientos en tecnologías
+          modernas.
+        </p>
+        <p className="hero__description">
           Mi historia es poco típica, fui{" "}
           <a
             href="https://estherquiros.es"
@@ -33,8 +38,8 @@ export const Hero = () => {
           funciona.
         </p>
         <p className="hero__description">
-          Del mundo sanitario me llevo empatía, paciencia y trato: también están
-          en mi forma de colaborar y comunicarme con el equipo.
+          Gracias a mi trayectoria anterior aporto empatía, paciencia y trato:
+          también están en mi forma de colaborar y comunicarme con el equipo.
         </p>
       </div>
     </section>

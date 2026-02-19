@@ -2,21 +2,21 @@ export const SoftSkills = [
   {
     title: "Comunicación efectiva",
     description:
-      "Soy una persona divertida, conecto con las personas, disfruto de escuchar y expresarme con entusiasmo y empatía.",
+      "Soy divertida, conecto, escucho y me expreso con entusiasmo y empatía.",
   },
   {
     title: "Trabajo en equipo",
     description:
-      "Me gusta inspirar y motivar a quienes me rodean, buscando que todos aportemos nuestras fortalezas para lograr el mejor resultado.",
+      "Me gusta inspirar y motivar a quienes me rodean para que todos aportemos nuestras fortalezas.",
   },
   {
     title: "Proactividad",
     description:
-      "Tomar la iniciativa y explorar nuevas posibilidades aportando energía y soluciones me define.",
+      "Tomar la iniciativa y explorar soluciones con energía me define.",
   },
   {
     title: "Aprendizaje continuo",
     description:
-      "Siempre busco crecer y aprender de cada experiencia, abrazando los cambios y manteniendo mi curiosidad y entusiasmo.",
+      "Busco crecer y aprender de cada experiencia manteniendo mi curiosidad y entusiasmo.",
   },
 ];
